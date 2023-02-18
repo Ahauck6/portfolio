@@ -1,0 +1,30 @@
+h1 {
+    color: rgba(61, 243, 47, .5);
+    border-style: dotted; 
+    border-width: 1px;
+    border-color: #8FBC8F;
+}
+body {
+    background-color: #FFF8DC; 
+}
+p {
+    color: #FF6347;
+}
+.gray-text {
+    font-weight: bold;
+    color: black;
+    border-style: groove;
+    border-width: medium;
+    border-color: rgb(127, 128, 188)
+}
+.gray-text:hover {
+    background-color: #2F4F4F;
+}
+img {
+    border-style: dashed;
+    border-color: #E6E6FA;
+    border-width: 4px;
+}
+.italic-text {
+    font-style: italic;
+}
