@@ -1,7 +1,7 @@
 h1 {
     color: rgba(61, 243, 47, .5);
     border-style: dotted; 
-    border-width: 1px;
+    border-width: 3px;
     border-color: #8FBC8F;
 }
 body {
@@ -15,10 +15,13 @@ p {
     color: black;
     border-style: groove;
     border-width: medium;
-    border-color: rgb(127, 128, 188)
+    border-color: rgb(127, 128, 188) 
 }
 .gray-text:hover {
     background-color: #2F4F4F;
+}
+.gray-text {
+    width: 50%;
 }
 img {
     border-style: dashed;
@@ -27,4 +30,22 @@ img {
 }
 .italic-text {
     font-style: italic;
+}
+.important {
+    color: #87CEEB;
+    text-decoration: underline; 
+    text-decoration-style: wavy;
+}
+article {
+    color: #B8860B;
+    border-style: double;
+    border-color: #A9A9A9;
+    border-width: 4px;
+}
+p.fancy {
+    color: #00008B;
+    font-style: italic;
+}
+h1 {
+    width: 75%;
 }
