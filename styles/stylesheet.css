@@ -1,22 +1,27 @@
 h1 {
-    color: rgba(61, 243, 47, .5);
-    border-style: dotted; 
+    color: rgb(250, 249, 246);
+    border-style: solid; 
     border-width: 3px;
-    border-color: #8FBC8F;
+    border-color: rgb(0, 0, 0);
+    background-color: #8FBC8F; 
     text-align: center;
+}
+h1{
+    padding: 2rem 0;
 }
 body {
     background-color: #FFF8DC; 
 }
 p {
-    color: #FF6347;
+    color: #00008B;
 }
 .gray-text {
     font-weight: bold;
-    color: black;
+    color: rgb(250, 249, 246);
     border-style: groove;
     border-width: medium;
-    border-color: rgb(127, 128, 188) 
+    border-color: rgb(0, 0, 0);
+    background-color: #8FBC8F;
 }
 .gray-text:hover {
     background-color: #2F4F4F;
@@ -25,35 +30,49 @@ p {
     width: 80%;
 }
 img {
-    border-style: dashed;
-    border-color: #E6E6FA;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
     border-width: 4px;
 }
 .italic-text {
     font-style: italic;
 }
 .important {
-    color: #87CEEB;
+    color: #87ceeb;
     text-decoration: underline; 
     text-decoration-style: wavy;
 }
 article {
-    color: #B8860B;
+    color: #87ceeb;
     border-style: double;
-    border-color: #A9A9A9;
+    border-color: #8FBC8F;
     border-width: 4px;
+    background-color: rgb(250, 249, 246);
 }
 .box{
     box-sizing: border-box;
     width: 30%;
     padding: 1rem;
-    margin: 1rem 2rem 1rem;
+    margin: 1rem 2rem;
+    background-color: rgb(250, 249, 246);
 }
 .container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+}
+.container-two {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.box-two {
+    box-sizing: border-box;
+    width: 40%;
+    padding: 2rem;
+    margin: 1rem 2rem;
 }
 p.fancy {
     color: #00008B;
@@ -70,4 +89,27 @@ h1,h2,h3,h4 {
 }
 p {
     font-family: "Fira Sans", sans-serif;
+}
+a {
+    color:#8FBC8F;
+}
+article:hover {
+    color: #ff3403;
+    font-size: 2em;
+}
+article {
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
+}
+div:hover {
+    border: 4px solid #8FBC8F;
+}
+div {
+    transition: border 2s 2s;
+}
+footer:hover { background-color: #8FBC8F;}
+footer {
+    transition: background 2s 2s;
 }
