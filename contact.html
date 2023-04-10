@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>contact page</title>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Old+Standard+TT&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/42af387577.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <h1>Contact Me</h1>
+            <nav>
+                <a href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+                <a href="projects.html"><i class="fa-solid fa-gear"></i>Projects</a>
+            </nav>
+        </header>
+        <section>
+            <h2>Please complete this contact form with your information.</h2>
+            <form method="GET">
+                <label>Name:
+                    <input type="text" name="clientName">
+                </label>
+
+                <label>Email:
+                    <input type="email" name="clientEmail">
+                </label>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="clientNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+                <fieldset>
+                    <legend>What is your prefered method of contact?</legend>
+                    <label>
+                        <input type="radio" name="method" value="phone">
+                        Phone
+                    </label>
+                    <label>
+                        <input type="radio" name="method" value="email">
+                        Email
+                    </label>
+                </fieldset>
+
+                <label>Message:
+                    <textarea name="clientMessage" rows="10" cols="65"></textarea>
+                </label>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+    </body>
+</html>

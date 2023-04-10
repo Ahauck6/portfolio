@@ -113,3 +113,29 @@ footer:hover { background-color: #8FBC8F;}
 footer {
     transition: background 2s 2s;
 }
+nav a:hover {
+    text-decoration: underline;
+}
+/*css for contact form*/
+input, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin: 1rem; 
+    cursor: pointer;
+    color: #00008B
+}
+input[type=submit] {
+    background-color: #87ceeb;
+    width: 10%;
+}
+input {
+    border-radius: 10px;
+}
+fieldset {
+    border: none;
+}
+fieldset input {
+    display: inline;
+}
